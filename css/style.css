@@ -6,5 +6,48 @@ font-family: "Inter", sans-serif;
 
 }
 .container-mdcontainer-md{
+height: 100vh;
 
+}
+.main{
+    height: 70vh;
+width: 100%;
+/* margin-bottom: 5px; */
+background: url(../images/Header\ Background\ Img.png);
+background-position: center;
+background-size: cover;
+display: flex; 
+flex-direction: column;
+
+}
+.collapse{
+    /* display: flex; */
+    justify-content: end;
+}
+.navbar-nav li{
+    color:yellowgreen;
+    list-style: none;
+ 
+
+}
+.nav-item1{
+    border: 2px solid white;
+    margin: 6px;
+    padding: 2px;
+    border-radius: 8px;
+    padding: 0 5px;
+    /* background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;*/
+} 
+.nav-item1{
+    color:aliceblue;
+    font-size:medium;
+    font-weight: 600;
+
+
+}
+.nav-item2{
+    background-color: red;
 }
